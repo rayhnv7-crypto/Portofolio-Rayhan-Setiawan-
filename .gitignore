@@ -1,0 +1,12 @@
+# Unrelated downloaded files in project root (not part of the site)
+*.jpg
+*.jpeg
+*.png
+!assets/img/*.jpg
+!assets/img/*.jpeg
+!assets/img/*.png
+
+# QA / scratch directories
+.qa/
+.verify/
+.shots/
