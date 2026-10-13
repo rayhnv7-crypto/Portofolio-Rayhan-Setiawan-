@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Rayhan Setiawan — Digital Systems Builder</title>
+<title>Rayhan Setiawan — Portfolio</title>
 <meta name="description" content="Portofolio Rayhan Setiawan — dokumentasi journey, eksperimen, dan sistem yang dibangun di seputar AI, automation, SEO, web development, dan digital marketing." />
 <meta name="theme-color" content="#0b0d10" />
 <link rel="canonical" href="https://rayhansetiawan.id/" />
 
 <!-- Open Graph / social preview -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Rayhan Setiawan — Digital Systems Builder" />
+<meta property="og:title" content="Rayhan Setiawan — Portfolio" />
 <meta property="og:description" content="Dokumentasi journey, eksperimen, dan sistem yang dibangun di seputar AI, automation, SEO, web development, dan digital marketing." />
 <meta property="og:image" content="assets/img/rayhan-hero.jpg" />
 <meta property="og:locale" content="id_ID" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Rayhan Setiawan — Digital Systems Builder" />
+<meta name="twitter:title" content="Rayhan Setiawan — Portfolio" />
 <meta name="twitter:description" content="Dokumentasi journey, eksperimen, dan sistem yang dibangun di seputar AI, automation, SEO, web development, dan digital marketing." />
 <meta name="twitter:image" content="assets/img/rayhan-hero.jpg" />
 
@@ -45,6 +45,58 @@
   }
 }
 </script>
+
+<style id="design-freedom-dollar-hero">
+:root{--bg:#10100e;--bg-soft:#171612;--surface:#1d1b16;--text:#eee1cb;--muted:#b9ac96;--accent:#c9a875;--line:rgba(201,168,117,.25)}
+html{scroll-behavior:smooth;background:#10100e}
+body{background:#10100e;color:#eee1cb}
+.nav{background:rgba(12,12,10,.97);border-bottom:1px solid rgba(201,168,117,.25);backdrop-filter:blur(14px)}
+.brand{color:#e6d2ae;font-family:Georgia,'Times New Roman',serif;letter-spacing:.09em}
+.brand .mark{background:linear-gradient(145deg,#dfc18e,#85623a);color:#17130d;border-radius:2px}
+.nav-links a{letter-spacing:.11em;text-transform:uppercase;font-size:.72rem}
+.nav-links a[aria-current=page]::after{background:#c9a875}
+.hero{position:relative;isolation:isolate;min-height:calc(100svh - 78px);display:flex;align-items:stretch;overflow:hidden;background:#11100d;border-bottom:1px solid rgba(201,168,117,.3)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("https://images.pexels.com/photos/4386374/pexels-photo-4386374.jpeg?auto=compress&cs=tinysrgb&w=2200");background-size:cover;background-position:center 43%;filter:sepia(.38) saturate(.68) contrast(1.06);transform:scale(1.025)}
+.hero::after{content:"";position:absolute;z-index:1;right:0;top:0;bottom:0;width:15%;box-sizing:border-box;padding:2.3rem 1.5rem;background:linear-gradient(180deg,rgba(22,20,16,.97),rgba(16,15,12,.96));border-left:1px solid rgba(201,168,117,.3);pointer-events:none}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:minmax(320px,.85fr) minmax(280px,1.15fr);align-items:center;gap:2.5rem;width:min(1240px,calc(100% - 19% - 4rem));margin-inline:auto;padding:3.5rem 0 4rem}
+.hero-copy{position:relative;z-index:3;max-width:620px}
+.hero-copy .eyebrow{color:#d2b17a;letter-spacing:.27em;font-size:.72rem}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(3.8rem,7vw,7.5rem);line-height:.88;letter-spacing:-.055em;color:#f0dfc3;margin:1.7rem 0 1.4rem;text-shadow:0 5px 34px #0008}
+.hero h1 .first,.hero h1 .last{color:#f0dfc3}
+.hero .role{font-family:Georgia,'Times New Roman',serif;font-size:clamp(1rem,1.6vw,1.35rem);line-height:1.55;color:#d3c3a8;max-width:390px}
+.hero .btn--primary{border:1px solid #c9a875;background:rgba(15,14,11,.62);color:#e4c99b;border-radius:0;padding:.95rem 1.35rem;letter-spacing:.16em;text-transform:uppercase;font-size:.72rem}
+.hero .btn--primary:hover{background:#c9a875;color:#14110b}
+.hero-media{position:relative;align-self:stretch;min-height:470px;display:flex;align-items:flex-end;justify-content:center;margin:0}
+.hero-media .frame{width:100%;height:100%;min-height:470px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:transparent;border:0;box-shadow:none}
+.hero-media .frame img{width:100%;height:100%;min-height:470px;object-fit:contain;object-position:center bottom;filter:brightness(.62) sepia(.16) contrast(1.1);mix-blend-mode:normal;mask-image:linear-gradient(180deg,#000 0%,#000 82%,transparent 100%)}
+.hero-badge{position:absolute;left:1rem;bottom:1.4rem;background:rgba(15,14,11,.8);border:1px solid rgba(201,168,117,.28);color:#d9c7a8;padding:.85rem 1rem;max-width:250px}
+.hero-badge .num,.hero-badge .lbl{color:#d9c7a8}
+.socials{display:none}
+.about,.journey,.experience,.skills,.work,.documentation,.achievements,.contact{background:var(--bg);color:var(--text)}
+.sec-head h2,.about h2,.contact h2{font-family:Georgia,'Times New Roman',serif;font-weight:400}
+@media(max-width:850px){
+ .hero{min-height:720px}
+ .hero::after{width:94px;padding:1rem .6rem}
+ .hero-grid{width:calc(100% - 120px);grid-template-columns:1fr;gap:.5rem;padding:3rem 0 2rem}
+ .hero-copy{max-width:100%}
+ .hero h1{font-size:clamp(3.5rem,12vw,6rem);margin:1.2rem 0}
+ .hero-media{min-height:270px;max-height:370px}
+ .hero-media .frame,.hero-media .frame img{min-height:270px}
+ .hero-media .frame img{object-position:center 25%}
+ .hero-badge{display:none}
+}
+@media(max-width:520px){
+ .hero{min-height:680px}
+ .hero::after{width:70px;padding:.5rem .3rem}
+ .hero-grid{width:calc(100% - 88px);padding:2.5rem 0 1.5rem}
+ .hero-copy .eyebrow{font-size:.58rem}
+ .hero h1{font-size:clamp(2.7rem,12vw,4rem)}
+ .hero .role{font-size:.95rem}
+ .hero-media{min-height:220px;max-height:280px}
+ .hero-media .frame,.hero-media .frame img{min-height:220px}
+}
+</style>
+
 </head>
 <body>
 
@@ -80,15 +132,12 @@
 <section class="hero" id="home" aria-label="Perkenalan">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow reveal">Digital Systems Builder</span>
-      <h1>
-        <span class="first reveal d1">Halo, saya</span>
-        RAYHAN<br /><span class="last reveal d1">SETIAWAN</span>
-      </h1>
-      <p class="role reveal d2">Mahasiswa yang sedang membangun jalur di persimpangan <b>AI &amp; Automation, Website &amp; SEO, dan Digital Marketing</b> — belajar dengan cara mempraktikkan, mendokumentasikan, dan membangun sistem nyata.</p>
+      <span class="eyebrow reveal">RAYHAN SETIAWAN</span>
+      <h1><span class="first reveal d1">DESIGN</span><br /><span class="last reveal d1">&amp; FREEDOM</span></h1>
+      <p class="role reveal d2">Membangun sistem digital yang jelas, elegan, dan berguna.</p>
       <div class="hero-cta reveal d3">
-        <a href="#journey" class="btn btn--primary">
-          Jelajahi Journey
+        <a href="#work" class="btn btn--primary">
+          Lihat karya saya
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
